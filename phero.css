@@ -98,6 +98,10 @@ section{
     border: 15px solid white;
     border-radius: 30px;
 }
+.column:hover h3{
+    color: #FF7F50;
+    font-size: 1.5em;
+}
 .inquiry-bg img{
     position: absolute;
     width: 906px;
