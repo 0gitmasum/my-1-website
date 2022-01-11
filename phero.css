@@ -1,0 +1,142 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+section{
+    height: 550px;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.half-width h1{
+    font-size: 2em;
+}
+.half-width .name-title{
+    font-weight: bold;
+    color: orangered;
+}
+.half-width p{
+    padding-bottom: 25px;
+}
+.first-link{
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: palegreen;
+    background-image: linear-gradient(45deg, violet, rgb(110, 4, 209));
+    padding: 10px 20px;
+    border-radius: 6px;
+}
+.half-width img{
+    width: 70%;
+}
+.half-width h2{
+    font-size: 1.6em;
+}
+.half-width .cv-link{
+    text-decoration: none;
+    color: white;
+    background-image: linear-gradient(blue, sienna);
+    padding: 10px 20px;
+    border-radius: 6px;
+}
+.latest-work{
+    background-color: rgb(235, 235, 235);
+    height: 900px;
+}
+.latest-work h1{
+    text-align: center;
+    padding-top: 90px;
+    padding-bottom: 35px;
+}
+.title-project{
+    color: red;
+}
+.column{
+    float: left;
+    width: 25%;
+    margin-left: 5%;
+    height: 500px;
+    box-shadow: 10px 5px 15px gray;
+}
+.column img{
+    width: 100%;
+}
+.project1{
+    background-color: white;
+    border: 15px solid white;
+    border-radius: 30px ;
+}
+#project2{
+    background-color: white;
+    border: 15px solid white;
+    border-radius: 30px;
+}
+#project3{
+    background-color: white;
+    border: 15px solid white;
+    border-radius: 30px;
+}
+.inquiry-bg img{
+    position: absolute;
+    width: 906px;
+    height: 225px;
+    left: 456px;
+    top: 2150px;
+    border-radius: 30px;
+}
+.work-inquiry{
+    font-size: 2em;
+    position: absolute;
+    left: 510px;
+    top: 2180px;
+}
+.work-inquiry h1{
+    color: white;
+}
+.last-button{
+    position: absolute;
+    width: 154px;
+    height: 50px;
+    left: 600px;
+    top: 51px;
+    text-decoration: none;
+    color: white;
+    background-color: salmon;
+    padding: 10px 17px;
+    border-radius: 6px;
+    text-align: center;
+    font-size: 0.8em;
+}
+.contract{
+    position: absolute;
+    top: 2400px;
+    left: 38%;
+}
+.contract h5{
+    text-align: center;
+    font-size: large;
+    font-weight: normal;
+    font-family: 'Times New Roman', Times, serif;
+}
+.contract .gmail{
+    position: absolute;
+    left: 40px;
+    top: 70px;
+    color: black;
+    font-size: 2em;
+    font-weight: bold;
+    text-decoration: none;
+}
+.contract img{
+    width: 10%;
+}
+.icons{
+    position: relative;
+    top: 50px;
+    left: 100px;
+    height: 50px;
+    padding: 7px;
+}
