@@ -1,6 +1,24 @@
 body{
     font-family: 'Open Sans', sans-serif;
 }
+.navbar li{
+    list-style: none;
+    text-align: right;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    padding-right: 145px;
+}
+.navbar li a{
+    text-decoration: none;
+    padding-right: 50px;
+    font-size: larger;
+    font-weight: bold;
+    color: black;
+}
+.navbar li a:hover{
+    color:darkviolet;
+
+}
 section{
     height: 550px;
 }
@@ -24,7 +42,7 @@ section{
     text-decoration: none;
     font-size: 1.2em;
     font-weight: bold;
-    color: palegreen;
+    color: white;
     background-image: linear-gradient(45deg, violet, rgb(110, 4, 209));
     padding: 10px 20px;
     border-radius: 6px;
@@ -38,9 +56,10 @@ section{
 .half-width .cv-link{
     text-decoration: none;
     color: white;
-    background-image: linear-gradient(blue, sienna);
+    background-image: linear-gradient(red, rgba(104, 190, 18, 0.548));
     padding: 10px 20px;
     border-radius: 6px;
+    font-weight: bold;
 }
 .latest-work{
     background-color: rgb(235, 235, 235);
@@ -84,14 +103,14 @@ section{
     width: 906px;
     height: 225px;
     left: 456px;
-    top: 2150px;
+    top: 2300px;
     border-radius: 30px;
 }
 .work-inquiry{
     font-size: 2em;
     position: absolute;
-    left: 510px;
-    top: 2180px;
+    left: 505px;
+    top: 2340px;
 }
 .work-inquiry h1{
     color: white;
@@ -101,7 +120,7 @@ section{
     width: 154px;
     height: 50px;
     left: 600px;
-    top: 51px;
+    top: 40px;
     text-decoration: none;
     color: white;
     background-color: salmon;
@@ -112,7 +131,7 @@ section{
 }
 .contract{
     position: absolute;
-    top: 2400px;
+    top: 2550px;
     left: 38%;
 }
 .contract h5{
